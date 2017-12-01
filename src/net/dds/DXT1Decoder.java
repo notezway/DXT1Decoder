@@ -56,7 +56,6 @@ public class DXT1Decoder {
                 throw new IOException("Incorrect texture format");
             }
             image = readTextureData();
-            input.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
